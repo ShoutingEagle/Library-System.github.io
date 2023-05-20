@@ -1,0 +1,169 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root{
+    --clr-background: #eceff1;
+    --clr-white: #ffffff;
+    --clr-primary: #ce15a6;
+    --clr-gray:#263238;
+    --font-size:16px;
+    --border-radius: 0.2em;
+  }
+  
+  body{
+    margin:0;
+    font-family:"Open Sans", sans-serif;
+    font-size: var(--font-size);
+    color: var(--clr-gray);
+    background-color: var(--clr-background);
+    background-color: rgb(139, 22, 87);
+  }
+  
+  .navbar{
+    width: 100vw;
+    background-color: var(--clr-primary);
+    margin: 0;
+  }
+  
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0;
+    height: 3em;
+    padding: 0;
+  }
+  
+  ul li{
+    padding-right: 2em;
+    font-weight: bold;
+    color: var(--clr-white);
+  }
+
+  li:first-child{
+    margin-right: auto;
+    margin-left: 2em;
+  }
+
+
+  .container{
+    display: grid;
+    place-items: center;
+    margin-inline: auto;
+   
+    
+  }
+
+  #book{
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+  } 
+
+  table{
+	width: 1200px;
+	box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+  }
+
+    table, td, th{
+	padding: 20px;
+	border: 1px solid rgb(253,182,255);
+	border-collapse: collapse;
+	text-align: center;
+	cursor: pointer;
+    }
+
+td{
+	font-size: 25px;
+}
+
+th{
+	background-color: rgb(235, 23, 171);
+	color: white;
+
+}
+
+tr:nth-child(odd){
+
+	background-color: rgb(206, 0, 86);
+    color: white;
+
+}
+
+.hover:nth-child(odd):hover{
+	transform: scale(1.2);
+	transition: transform 300ms ease-in;
+}
+
+
+tr:nth-child(even):hover{
+	transform: scale(1.2);
+	transition: transform 300ms ease-in;
+}
+
+
+img{
+    height: 100px;
+}
+
+
+  .main{
+    width:1200px;
+    margin: 100px auto 0 auto;
+    
+  }
+
+  h2{
+    text-align: center;
+    padding: 100px;
+  }
+
+  .register{
+    background-color: rgba(0,0,0,0.5);
+    font-size: 25px;
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.3) ;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color:#fff;
+  }
+
+  #register{
+    margin: 40px;
+  }
+
+  label{
+    font-size: 25px;
+  }
+
+  .user_details{
+    margin-top: 50px;
+    
+  }
+
+ #name, #dob, #age, #email, #pass{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+ }
+
+ #submit{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(221, 10, 126);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+ }
+
+
+  
+ 

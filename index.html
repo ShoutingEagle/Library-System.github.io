@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Navbar -->
+
+    <div class="navbar">
+        
+            <ul>
+              <li>Library System</li>
+              <li>Books</li>
+              <li>Register</li>
+              <li>Contact Us</li>
+              <li>Logout</li>
+            </ul>
+          
+    </div>
+
+    
+
+
+
+    <!-- Table -->
+
+    <div class="container">
+        <p id="book">Books</p>
+        <table> 
+            <tr>
+                <td>Book ID</td>
+                <td>Title</td>
+                <td>Author</td>
+                <td>Genre</td>
+                <td>Availability</td>
+            </tr>
+
+            <tr class="hover">
+                <th>01</th>
+                <th>
+                <p><img src="https://m.media-amazon.com/images/I/5165He67NEL.jpg" alt="philosphers_stone image"></p>
+                <p class="details">Harry Potter and The Philosopher's Stone </p> 
+                <p class="details">Publication Date : 26 June 1997</p>
+                <p class="details">Page Count : 223(first edition) </p>
+                <p class="details">ISBN : 978-0-7475-3269-9</p>
+                </th>
+                <th>J. K. Rowling</th>
+                <th>Adventure, Fantasy</th>
+                <th>Available</th>
+            </tr>
+
+            <tr class="hover">
+                <th>02</th>
+                <th>
+                <p><img src="https://m.media-amazon.com/images/I/91OINeHnJGL.jpg" alt="chamber_of_secrets image"></p>
+                <p class="details">Harry Potter and The Chamber of Secrets</p> 
+                <p class="details">Publication Date : 2 July 1998</p>
+                <p class="details">Page Conunt : 251 (first edition)</p>
+                <p class="details">ISBN : 0-7475-3849-2</p>
+                </th>
+                <th>J. K. Rowling</th>
+                <th>Adventure, Fantasy</th>
+                <th>Available</th>
+            </tr>
+
+            <tr class="hover">
+                <th>03</th>
+                <th>
+                <p><img src="https://m.media-amazon.com/images/I/81f7bXC-tTL.jpg" alt="prisoner_of_askaban"></p>
+                <p class="details title">Harry Potter and the Prisoner of Azkaban</p> 
+                <p class="details">Publication Date : 8 July 1999</p>
+                <p class="details">Page Conunt : 448 (Reprint)</p>
+                <p class="details">ISBN-13 : 9780439136365</p>
+                </th>
+                <th>J. K. Rowling</th>
+                <th>Adventure, Fantasy</th>
+                <th>Available</th>
+            </tr>
+
+            <tr class="hover">
+                <th>04</th>
+                <th>
+                <p><img src="https://m.media-amazon.com/images/I/810jKiNChxL.jpg" alt="goblet_of_fire image"></p>
+                <p class="details title">Harry Potter and the Goblet of Fire</p> 
+                <p class="details">Publication Date : 8 July 2000 </p>
+                <p class="details">Page Conunt : 752 pages (Scholastic Paperbacks)</p>
+                <p class="details">ASIN : 0439139600</p>
+                </th>
+                <th>J. K. Rowling</th>
+                <th>Adventure, Fantasy</th>
+                <th>Available</th>
+            </tr>
+
+            <tr class="hover">
+                <th>05</th>
+                <th>
+                <p><img src="https://pictures.abebooks.com/isbn/9780439567619-uk.jpg" alt="order_of_phoenix image"></p>
+                <p class="details title">Harry Potter and the Order of the Phoenix</p> 
+                <p class="details">Publication Date : 21 June 2003</p>
+                <p class="details">Page Conunt : 870 pages</p>
+                <p class="details">ISBN 13: 9780439567619</p>
+                </th>
+                <th>J. K. Rowling</th>
+                <th>Adventure, Fantasy</th>
+                <th>Available</th>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+    <div class="main">
+        <div class="register">
+            <h2>Register</h2>
+        <form action="#" method="post" id="register">
+            <p class="user_details">
+                <label for="name">First Name:</label>
+                <br>
+                <input type="text" name="name" id="name" required>
+            </p>
+
+            <p class="user_details">
+                <label for="name">Last Name:</label>
+                <br>
+                <input type="text" name="name" id="name" required>
+            </p>
+
+            <p class="user_details">
+                <label for="dob">Date Of Birth:</label>
+                <br>
+                <input type="date" name="dob" id="dob" required>
+            </p>
+            
+            
+            <p class="user_details">
+                <label for="age">Age:</label>
+                <br>
+                <input type="text" name="age" id="age" min="5" max="100" required>
+            </p>
+
+            
+
+            <p class="user_details">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" required>
+            </p>
+            
+
+            <p class="user_details"> 
+                <label for="pass">Password:</label>
+                <br>
+                <input type="password" name="pass" id="pass" required>
+            </p>
+            
+
+            <p class="user_details">
+                <label for="pass">Confirm Password:</label>
+                <br>
+                <input type="password" name="pass" id="pass" required>
+            </p>
+
+            <button id="submit" class="user_details">Register</button>
+
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
